@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="quote.css">
+    <title>quote generator</title>
+</head>
+<body class="bg-info">
+    
+<div class="quote-box bg-light w-50 position-absolute top-50 start-50 p-4 rounded-3 text-center shadow-lg">
+    <h2>QUOTE OF THE DAY</h2>
+    <blockquote id="quote">Loading...</blockquote>
+    <span id="author">Loading...</span>
+    <div class="w-100 mt-5 d-flex justify-content-center">
+        <button  class="bg-info text-light rounded-pill border border-2 border-info w-50  d-flex align-items-center justify-content-center m-1  p-2" onclick="getQuote(api_url) ">New Quote</button>
+        <button class="btn  rounded-pill w-50  d-flex align-items-center justify-content-center m-1  p-2  text-secondary border border-3 border-info" onclick="tweet()"> <img src="img/coloured.png" alt="">Tweet</button>
+
+    </div>
+</div>
+
+
+
+  
+
+
+
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+    <script src="quote.js"></script>
+</body>
+</html>
